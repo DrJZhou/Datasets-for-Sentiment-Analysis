@@ -105,6 +105,7 @@ that is "\n".
    data-url = "http://alt.qcri.org/semeval2016/task5/"
  ### Twitter
  As people tend to post comments for the celebrities, products, and companies, we use these keywords (such as "bill gates", "taylor swift", "xbox", "windows 7", "google") to query the Twitter API. After obtaining the tweets, we manually annotate the sentiment labels (negative, neutral, positive) for these targets. In order to eliminate the effects of data imbalance problem, we randomly sample the tweets and make the data balanced. The negative, neutral, positive classes account for 25%, 50%, 25%, respectively. Training data consists of 6,248 tweets, and testing data has 692 tweets.
+ 
     @inproceedings{dong2014adaptive,
      title={Adaptive recursive neural network for target-dependent twitter sentiment classification},
      author={Dong, Li and Wei, Furu and Tan, Chuanqi and Tang, Duyu and Zhou, Ming and Xu, Ke},
@@ -112,6 +113,7 @@ that is "\n".
      pages={49--54},
      year={2014}
     }
+    
    data-url = ""
  ### Sentihood
     @article{saeidi2016sentihood,
